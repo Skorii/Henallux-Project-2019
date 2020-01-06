@@ -88,7 +88,7 @@ class Slave:
             self.__send_message("Log started!")
             while self.recording:  # While record is active
                 timer = 10
-                with open(self.file_name) as file:
+                with open(self.file_name, 'w') as file:
                     file.write(self.__get_sys_info())  # Write sys info into log file
                 while timer > 0 and self.recording:
                     sleep(1)
