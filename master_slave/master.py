@@ -93,7 +93,7 @@ class Master:
                         print(f"[{now.hour}:{now.minute}] Too many arguments : Try like this 'attack'.")
                 else:
                     print(f"[{now.hour}:{now.minute}] Unknown command : '{raw_input}'.")
-                    logging.info("Unknown command : '{raw_input}'.")
+                    logging.info(f"Unknown command : '{raw_input}'.")
             sleep(0.01)
         logging.info("Exiting master...")
 
