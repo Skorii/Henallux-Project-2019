@@ -22,7 +22,7 @@ master.start()
 
 Usage:
 ```python
-from master_slave.slave import Slave
+from master_slave.slave import *
 
 slave = Slave(address="192.168.0.10", port=50000)  
    # address = address of master
