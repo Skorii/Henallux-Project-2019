@@ -1,5 +1,11 @@
 # Python Henallux Project 2019
 Usage informations about master.py and slave.py classes
+
+## Installation
+```cmd
+pip install master-slave
+```
+
 ## Class Master
 
 Usage:
