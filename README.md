@@ -10,7 +10,7 @@ pip install master-slave
 
 Usage:
 ```python
-from master-slave import Master
+from master_slave.master import *
 
 master = Master(address="", port=50000)
    # address = address to listen to (empty mean listenning on all addresses)
@@ -22,7 +22,7 @@ master.start()
 
 Usage:
 ```python
-from master-slave import Slave
+from master_slave.slave import Slave
 
 slave = Slave(address="192.168.0.10", port=50000)  
    # address = address of master
